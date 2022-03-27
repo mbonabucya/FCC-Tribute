@@ -1,0 +1,79 @@
+body
+{
+    background-color:#ebf0ec;
+    
+}
+
+#title
+{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#img-div
+{
+    background-color: white;
+    text-align: center;
+}
+#image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+q
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#tribute-info
+{
+    margin-top: 50px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+#tribute-link
+{
+    margin-top: 50px;
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace ;
+    text-align: center;
+}
+#timeline
+{
+    text-align: center;
+}
+#achievement
+{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul
+{
+    margin-left:190px;
+    margin-right: 190px;
+
+}
+div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-height: 680px)
+{
+    div{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
